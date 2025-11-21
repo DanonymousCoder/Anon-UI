@@ -1,0 +1,195 @@
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.none {
+    display: none;
+}
+
+.unset {
+    display: unset;
+}
+
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.tems-stretch {
+    align-items: stretch;
+}
+
+.items-baseline {
+    align-items: baseline;
+}
+
+
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+
+
+.grid-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+
+
+.w-full {
+    width: 100%;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.w-screen {
+    width: 100vh;
+}
+
+.max-w-sm {
+    max-width: 600px;
+}
+
+.max-w-md {
+    max-width: 725px;
+}
+
+.max-w-lg {
+    max-width: 1200px;
+}
+
+.max-w-xl {
+    max-width: 1450px;
+}
+
+
+.h-full {
+    width: 100%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+
+
+.rounded-sm {
+    border-radius: var(--radius-sm);
+}
+
+.rounded-md {
+    border-radius: var(--radius-md);
+}
+
+.rounded-lg {
+    border-radius: var(--radius-lg);
+}
+
+.rounded-xl {
+    border-radius: var(--rounded-xl);
+}
+
+.rounded-full {
+    border-radius: var(--rounded-full);
+}
+
+.rounded {
+    border-radius: var(--rounded);
+}

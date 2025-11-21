@@ -44,6 +44,49 @@
 
 
 
-.font-light {
+.light {
     font-weight: 300;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
