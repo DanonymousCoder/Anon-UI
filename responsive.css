@@ -1,0 +1,14 @@
+/* MD Breakpoint (750px) */
+@media (min-width: 750px) {
+ [class*="md-["][class*="flex"] {
+     display: flex;
+}
+
+ [class*="md-["][class*="flex-column"] {
+     flex-direction: column;
+}
+
+ [class*="md-["][class*="bg-success"] {
+     background-color: var(--bg-success);
+}
+}
