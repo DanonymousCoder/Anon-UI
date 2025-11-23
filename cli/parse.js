@@ -38,15 +38,17 @@ function parseHTML(html) {
         const bracketRegex = /(\w+)-\[([^\]]+)\]/g;
         const bracketMatches = [...classStr.matchAll(bracketRegex)];
 
-        const breakpoint = match[1];
+       /**
+        *  const breakpoint = match[1];
         const utilities = match[2].trim().split(/\s+/);
+        */
 
 
-       bracketMatches.forEach(([, breapoint, utilities]) => {
+       bracketMatches.forEach(([, breakpoint, utilities]) => {
          if(BREAKPOINTS[breakpoint]) {
             responsiveClasses.push({
                 breakpoint,
-                utilities
+                utilities: utilities.trim().split(/\s+/)
             });
         }
        })
@@ -134,3 +136,29 @@ function main() {
 }
 
 main();
+
+
+module.exports = function parse(inputFile, outputFile) {
+    if (!fs.existsSync(inputFile)) {
+        console.error(`File not found: ${inputFile}`);
+        process.exit(1);
+    }
+
+    const html = fs.readFileSync(inputFile, 'utf8');
+    const responsiveClasses = parseHTML(html);
+
+     if (responsiveClasses.length === 0) {
+        console.log('No responsive classes found');
+        return;
+    }
+
+    const css = generateCSS(responsiveClasses);
+    fs.writeFileSync(outputFile, css);
+
+    console.log(`Generated ${outputFile}`);
+    console.log(`Found ${responsiveClasses.length} responsive declarations`);
+};
+
+
+module.exports.parseHTML = parseHTML;
+module.exports.generateCSS = generateCSS;

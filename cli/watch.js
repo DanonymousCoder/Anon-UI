@@ -10,7 +10,7 @@ function watch(inputFile, outputFile) {
             console.log('File changed, rebuilding...');
 
             const html = fs.readFileSync(inputFile, 'utf8');
-            const responsiveClasses =parseHTML(html);
+            const responsiveClasses = parseHTML(html);
             const css = generateCSS(responsiveClasses);
 
             fs.writeFileSync(outputFile, css);
@@ -19,7 +19,11 @@ function watch(inputFile, outputFile) {
     });
 }
 
-const inputFile = process.argv[2];
-const outputFile = process.argv[3] || 'responsive.css';
+module.exports = watch;
 
-watch(inputFile, outputFile);
+// Only run if called directly
+if (require.main === module) {
+    const inputFile = process.argv[2];
+    const outputFile = process.argv[3] || 'responsive.css';
+    watch(inputFile, outputFile);
+}

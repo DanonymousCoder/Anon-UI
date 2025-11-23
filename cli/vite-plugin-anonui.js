@@ -1,6 +1,6 @@
 const { parseHTML, generateCSS } = require('./parse');
 
-export default function anonuiPlugin(options = {}) {
+module.exports = function anonuiPlugin(options = {}) {
     return {
         name: 'vite-plugin-anonui',
 
@@ -16,7 +16,7 @@ export default function anonuiPlugin(options = {}) {
 
         handleHotUpdate({ file, server }) {
             if (file.endsWith('.html') || file.endsWith('.jsx')) {
-                server.ws.end({
+                server.ws.send({
                     type: 'full-reload'
                 })
             }

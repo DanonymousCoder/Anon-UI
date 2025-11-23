@@ -13,6 +13,10 @@ const typography  = fs.readFileSync("src/utilities/typography.css", "utf8");
 
 const framework = `/* Anon UI v0.1.0 - Dark-First Utility and Component based framework */\n\n${variables}\n\n${preset}\n\n${spacing}\n\n${colors}\n\n${typography}\n\n${layout}`;
 
+if (!fs.existsSync("dist")) {
+    fs.mkdirSync("dist");
+}
+
 fs.writeFileSync("dist/anon_ui.css", framework);
 
 console.log("Built dist/anon_ui.css successfully");

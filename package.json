@@ -2,9 +2,29 @@
     "name": "anon_ui",
     "version": "0.1.0",
     "description": "My very own CSS framework",
+    "main": "dist/anon_ui.css",
+    "author": "D'anonymousCoder",
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "framework",
+        "utility-first",
+        "dark-mode",
+        "responsive",
+        "tailwind-alternative"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DanonymousCoder/Anon-UI.git"
+    },
+    "bin": {
+        "anonui": "./cli/bin.js"
+    },
     "scripts": {
         "build": "node build.js",
-        "watch": "node build.js --watch"
+        "parse": "node cli/parse.js",
+        "watch": "node cli/watch.js",
+        "dev": "npm run watch"
     },
     "devDependencies": {
         "concat": "^1.0.3"
