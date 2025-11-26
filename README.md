@@ -116,6 +116,7 @@ anon_ui --version
 ### Layout
 
 **Display & Flexbox**
+
 ```html
 <!-- Display -->
 <div class="flex">Flexbox container</div>
@@ -150,6 +151,7 @@ anon_ui --version
 ```
 
 **Grid**
+
 ```html
 <div class="grid grid-cols-2">2 columns</div>
 <div class="grid grid-cols-3">3 columns</div>
@@ -158,6 +160,7 @@ anon_ui --version
 ```
 
 **Width & Height**
+
 ```html
 <!-- Width -->
 <div class="w-full">Full width (100%)</div>
@@ -178,6 +181,7 @@ anon_ui --version
 ```
 
 **Border Radius**
+
 ```html
 <div class="rounded-sm">Small radius</div>
 <div class="rounded-md">Medium radius</div>
@@ -190,6 +194,7 @@ anon_ui --version
 ### Spacing
 
 **Padding**
+
 ```html
 <!-- All sides -->
 <div class="p-0">No padding</div>
@@ -212,6 +217,7 @@ anon_ui --version
 ```
 
 **Margin**
+
 ```html
 <!-- All sides -->
 <div class="m-0">No margin</div>
@@ -231,6 +237,7 @@ anon_ui --version
 ```
 
 **Gap (for Flex & Grid)**
+
 ```html
 <div class="flex gap-1">Small gap</div>
 <div class="flex gap-2">Gap 2</div>
@@ -242,6 +249,7 @@ anon_ui --version
 ### Typography
 
 **Font Size**
+
 ```html
 <p class="text-xs">Extra small text</p>
 <p class="text-sm">Small text</p>
@@ -256,6 +264,7 @@ anon_ui --version
 ```
 
 **Font Weight**
+
 ```html
 <p class="light">Light (300)</p>
 <p class="normal">Normal (400)</p>
@@ -265,6 +274,7 @@ anon_ui --version
 ```
 
 **Text Alignment**
+
 ```html
 <p class="left">Left aligned</p>
 <p class="center">Center aligned</p>
@@ -272,6 +282,7 @@ anon_ui --version
 ```
 
 **Text Transform**
+
 ```html
 <p class="uppercase">UPPERCASE TEXT</p>
 <p class="lowercase">lowercase text</p>
@@ -281,6 +292,7 @@ anon_ui --version
 ### Colors
 
 **Background Colors**
+
 ```html
 <div class="bg-primary">Primary background</div>
 <div class="bg-secondary">Secondary background</div>
@@ -292,6 +304,7 @@ anon_ui --version
 ```
 
 **Text Colors**
+
 ```html
 <p class="text-primary">Primary text</p>
 <p class="text-secondary">Secondary text</p>
@@ -299,6 +312,7 @@ anon_ui --version
 ```
 
 **Border Colors**
+
 ```html
 <div class="border-primary">Primary border</div>
 <div class="border-accent">Accent border</div>
