@@ -113,31 +113,195 @@ anon_ui --version
 
 ## Utility Classes
 
-### Colors
+### Layout
 
+**Display & Flexbox**
 ```html
-<div class="bg-primary text-accent">Dark by default</div>
-<div class="bg-success text-white">Success state</div>
+<!-- Display -->
+<div class="flex">Flexbox container</div>
+<div class="grid">Grid container</div>
+<div class="block">Block element</div>
+<div class="inline-block">Inline block</div>
+<div class="none">Hidden element</div>
+
+<!-- Flex Direction -->
+<div class="flex flex-row">Horizontal flex</div>
+<div class="flex flex-column">Vertical flex</div>
+<div class="flex flex-row-reverse">Reversed horizontal</div>
+<div class="flex flex-column-reverse">Reversed vertical</div>
+
+<!-- Flex Wrap -->
+<div class="flex flex-wrap">Wrapping flex items</div>
+<div class="flex flex-nowrap">No wrapping</div>
+
+<!-- Align Items -->
+<div class="flex items-start">Align top</div>
+<div class="flex items-center">Align center</div>
+<div class="flex items-end">Align bottom</div>
+<div class="flex items-stretch">Stretch items</div>
+<div class="flex items-baseline">Align baseline</div>
+
+<!-- Justify Content -->
+<div class="flex justify-start">Justify start</div>
+<div class="flex justify-center">Justify center</div>
+<div class="flex justify-end">Justify end</div>
+<div class="flex justify-between">Space between</div>
+<div class="flex justify-around">Space around</div>
+```
+
+**Grid**
+```html
+<div class="grid grid-cols-2">2 columns</div>
+<div class="grid grid-cols-3">3 columns</div>
+<div class="grid grid-cols-4">4 columns</div>
+<div class="grid grid-cols-5">5 columns</div>
+```
+
+**Width & Height**
+```html
+<!-- Width -->
+<div class="w-full">Full width (100%)</div>
+<div class="w-auto">Auto width</div>
+<div class="w-screen">Viewport width (100vw)</div>
+
+<!-- Max Width -->
+<div class="max-w-sm">Small max width (600px)</div>
+<div class="max-w-md">Medium max width (725px)</div>
+<div class="max-w-lg">Large max width (1200px)</div>
+<div class="max-w-xl">XL max width (1450px)</div>
+
+<!-- Height -->
+<div class="h-full">Full height (100%)</div>
+<div class="h-auto">Auto height</div>
+<div class="h-screen">Viewport height (100vh)</div>
+<div class="min-h-screen">Min viewport height</div>
+```
+
+**Border Radius**
+```html
+<div class="rounded-sm">Small radius</div>
+<div class="rounded-md">Medium radius</div>
+<div class="rounded-lg">Large radius</div>
+<div class="rounded-xl">XL radius</div>
+<div class="rounded-full">Full radius (circle)</div>
+<div class="rounded">Default radius</div>
 ```
 
 ### Spacing
 
+**Padding**
 ```html
-<div class="p-4 m-2 gap-3">Padding, margin, gap</div>
+<!-- All sides -->
+<div class="p-0">No padding</div>
+<div class="p-1">Padding 1</div>
+<div class="p-2">Padding 2</div>
+<div class="p-4">Padding 4</div>
+<div class="p-8">Padding 8</div>
+<div class="p-12">Padding 12</div>
+<div class="p-16">Padding 16</div>
+
+<!-- Horizontal (left & right) -->
+<div class="px-2">Horizontal padding</div>
+<div class="px-4">Horizontal padding 4</div>
+<div class="px-8">Horizontal padding 8</div>
+
+<!-- Vertical (top & bottom) -->
+<div class="py-2">Vertical padding</div>
+<div class="py-4">Vertical padding 4</div>
+<div class="py-8">Vertical padding 8</div>
+```
+
+**Margin**
+```html
+<!-- All sides -->
+<div class="m-0">No margin</div>
+<div class="m-2">Margin 2</div>
+<div class="m-4">Margin 4</div>
+<div class="m-8">Margin 8</div>
+
+<!-- Horizontal (left & right) -->
+<div class="mx-2">Horizontal margin</div>
+<div class="mx-4">Horizontal margin 4</div>
+<div class="mx-auto">Center with auto margins</div>
+
+<!-- Vertical (top & bottom) -->
+<div class="my-2">Vertical margin</div>
+<div class="my-4">Vertical margin 4</div>
+<div class="my-auto">Vertical auto margins</div>
+```
+
+**Gap (for Flex & Grid)**
+```html
+<div class="flex gap-1">Small gap</div>
+<div class="flex gap-2">Gap 2</div>
+<div class="flex gap-4">Gap 4</div>
+<div class="flex gap-8">Gap 8</div>
+<div class="grid gap-6">Grid gap 6</div>
 ```
 
 ### Typography
 
+**Font Size**
 ```html
-<h1 class="text-4xl font-bold">Large heading</h1>
-<p class="text-base text-secondary">Body text</p>
+<p class="text-xs">Extra small text</p>
+<p class="text-sm">Small text</p>
+<p class="text-base">Base text (default)</p>
+<p class="text-md">Medium text</p>
+<p class="text-lg">Large text</p>
+<p class="text-xl">XL text</p>
+<p class="text-2xl">2XL text</p>
+<p class="text-3xl">3XL text</p>
+<p class="text-4xl">4XL text</p>
+<p class="text-5xl">5XL text</p>
 ```
 
-### Layout
-
+**Font Weight**
 ```html
-<div class="flex items-center justify-between">Flexbox</div>
-<div class="grid grid-cols-3 gap-4">Grid layout</div>
+<p class="light">Light (300)</p>
+<p class="normal">Normal (400)</p>
+<p class="medium">Medium (500)</p>
+<p class="semibold">Semibold (600)</p>
+<p class="bold">Bold (700)</p>
+```
+
+**Text Alignment**
+```html
+<p class="left">Left aligned</p>
+<p class="center">Center aligned</p>
+<p class="right">Right aligned</p>
+```
+
+**Text Transform**
+```html
+<p class="uppercase">UPPERCASE TEXT</p>
+<p class="lowercase">lowercase text</p>
+<p class="capitalize">Capitalized Text</p>
+```
+
+### Colors
+
+**Background Colors**
+```html
+<div class="bg-primary">Primary background</div>
+<div class="bg-secondary">Secondary background</div>
+<div class="bg-tertiary">Tertiary background</div>
+<div class="bg-accent">Accent background</div>
+<div class="bg-neutral">Neutral background</div>
+<div class="bg-success">Success background</div>
+<div class="bg-warning">Warning background</div>
+```
+
+**Text Colors**
+```html
+<p class="text-primary">Primary text</p>
+<p class="text-secondary">Secondary text</p>
+<p class="text-tertiary">Tertiary text</p>
+```
+
+**Border Colors**
+```html
+<div class="border-primary">Primary border</div>
+<div class="border-accent">Accent border</div>
 ```
 
 ## Dark Mode
