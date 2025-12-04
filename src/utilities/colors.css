@@ -6,6 +6,46 @@
     background-color: var(--bg-secondary);
 }
 
+.bg-secondary-50 {
+    background-color: var(--bg-secondary-50);
+}
+
+.bg-secondary-100 {
+    background-color: var(--bg-secondary-100);
+}
+
+.bg-secondary-200 {
+    background-color: var(--bg-secondary-200);
+}
+
+.bg-secondary-300 {
+    background-color: var(--bg-secondary-300);
+}
+
+.bg-secondary-400 {
+    background-color: var(--bg-secondary-400);
+}
+
+.bg-secondary-500 {
+    background-color: var(--bg-secondary-500);
+}
+
+.bg-secondary-600 {
+    background-color: var(--bg-secondary-600);
+}
+
+.bg-secondary-700 {
+    background-color: var(--bg-secondary-700);
+}
+
+.bg-secondary-800 {
+    background-color: var(--bg-secondary-800);
+}
+
+.bg-secondary-900 {
+    background-color: var(--bg-secondary-900);
+}
+
 .bg-tertiary {
     background-color: var(--bg-tertiary);
 }
@@ -14,8 +54,88 @@
     background-color: var(--bg-accent);
 }
 
+.bg-accent-50 {
+    background-color: var(--bg-accent-50);
+}
+
+.bg-accent-100 {
+    background-color: var(--bg-accent-100);
+}
+
+.bg-accent-200 {
+    background-color: var(--bg-accent-200);
+}
+
+.bg-accent-300 {
+    background-color: var(--bg-accent-300);
+}
+
+.bg-accent-400 {
+    background-color: var(--bg-accent-400);
+}
+
+.bg-accent-500 {
+    background-color: var(--bg-accent-500);
+}
+
+.bg-accent-600 {
+    background-color: var(--bg-accent-600);
+}
+
+.bg-accent-700 {
+    background-color: var(--bg-accent-700);
+}
+
+.bg-accent-800 {
+    background-color: var(--bg-accent-800);
+}
+
+.bg-accent-900 {
+    background-color: var(--bg-accent-900);
+}
+
 .bg-neutral {
     background-color: var(--bg-neutral);
+}
+
+.bg-neutral-50 {
+    background-color: var(--bg-neutral-50);
+}
+
+.bg-neutral-100 {
+    background-color: var(--bg-neutral-100);
+}
+
+.bg-neutral-200 {
+    background-color: var(--bg-neutral-200);
+}
+
+.bg-neutral-300 {
+    background-color: var(--bg-neutral-300);
+}
+
+.bg-neutral-400 {
+    background-color: var(--bg-neutral-400);
+}
+
+.bg-neutral-500 {
+    background-color: var(--bg-neutral-500);
+}
+
+.bg-neutral-600 {
+    background-color: var(--bg-neutral-600);
+}
+
+.bg-neutral-700 {
+    background-color: var(--bg-neutral-700);
+}
+
+.bg-neutral-800 {
+    background-color: var(--bg-neutral-800);
+}
+
+.bg-neutral-900 {
+    background-color: var(--bg-neutral-900);
 }
 
 .bg-success {

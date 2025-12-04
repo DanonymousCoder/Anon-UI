@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/anon_ui.css">
+    <link rel="stylesheet" href="../src/utilities/colors.css">
+    <link rel="stylesheet" href="../src/utilities/layout.css">
      <link rel="stylesheet" href="../responsive.css">
 
     <link rel="stylesheet" href="">
     <title>Anon UI Test</title>
 </head>
 <body>
-    <div class="container h-screen md-[flex flex-column bg-success]">
-    <button class="md-[text-2xl]">Testing1</button>
-    <button>Testing2</button>
+    <div class="container h-screen flex w-full">
+        <aside class="bg-neutral-700 w-2 p-3">
+            <ul class="flex flex-column gap-8">
+                <a href="#">Home</a>
+                <a href="#">Favourites</a>
+                <a href="#">Test</a>
+            </ul>
+        </aside>
+        <div>
+            <button class="md-[text-2xl] bg-accent-900">Testing1</button>
+            <button>Testing2</button>
+        </div>
     </div>
 </body>
 </html>
