@@ -1180,3 +1180,245 @@
 .outline-negative {
     outline-offset: -5px;
 }
+
+
+
+.static {
+    position: static;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+
+.top {
+    top: 0;
+}
+
+.top-percent-1 {
+    top: 10%;
+}
+
+.top-percent-2 {
+    top: 20%;
+}
+
+.top-percent-3 {
+    top: 30%;
+}
+
+.top-percent-4 {
+    top: 40%;
+}
+
+.top-percent-5 {
+    top: 50%;
+}
+
+.top-percent-6 {
+    top: 60%;
+}
+
+.top-percent-7 {
+    top: 70%;
+}
+
+.top-percent-8 {
+    top: 80%;
+}
+
+.top-percent-9 {
+    top: 90%;
+}
+
+.top-full,
+.top-percent-full {
+    top: 100%;
+}
+
+
+.bottom {
+    bottom: 0;
+}
+
+.bottom-percent-1 {
+    bottom: 10%;
+}
+
+.bottom-percent-2 {
+    bottom: 20%;
+}
+
+.bottom-percent-3 {
+    bottom: 30%;
+}
+
+.bottom-percent-4 {
+    bottom: 40%;
+}
+
+.bottom-percent-5 {
+    bottom: 50%;
+}
+
+.bottom-percent-6 {
+    bottom: 60%;
+}
+
+.bottom-percent-7 {
+    bottom: 70%;
+}
+
+.bottom-percent-8 {
+    bottom: 80%;
+}
+
+.bottom-percent-9 {
+    bottom: 90%;
+}
+
+.bottom-full,
+.bottom-percent-full {
+    bottom: 100%;
+}
+
+
+.z-lower {
+    z-index: -1;
+}
+
+.z-normal,
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.z-high {
+    z-index: 100;
+}
+
+.z-super-high {
+    z-index: 1000;
+}
+
+
+
+.overflow-no {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-x-no {
+    overflow-x: hidden;
+}
+
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+
+.overflow-y-no {
+    overflow-y: hidden;
+}
+
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+
+
+
+.overflow-anchor {
+    overflow-anchor: none;
+}
+
+.overflow-anchor-auto {
+    overflow-anchor: auto;
+}
+
+.overflow-anchor-initial {
+    overflow-anchor: initial;
+}
+
+.overflow-anchor-inherit {
+    overflow-anchor: inherit;
+}
+
+
+
+.scroll-contain {
+    overscroll-behavior: contain;
+}
+
+.scroll-auto {
+    overscroll-behavior: auto;
+}
+
+.scroll-none {
+    overscroll-behavior: none;
+}
+
+.scroll-initial {
+    overscroll-behavior: initial;
+}
+
+.scroll-inherit {
+    overscroll-behavior: inherit;
+}
+
+
+.scroll-behavior-block {
+    overscroll-behavior-block: contain;
+}
+
+
+.pointer-no {
+    pointer-events: none;
+}
+
+.pointer-auto {
+    pointer-events: auto;
+}
+
+.pointer-initial {
+    pointer-events: initial;
+}
+
+.pointer-inherit {
+    pointer-events: inherit;
+}

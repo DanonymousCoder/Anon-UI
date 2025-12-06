@@ -78,6 +78,10 @@
     text-align: center;
 }
 
+.justify {
+    text-align: justify;
+}
+
 
 .uppercase {
     text-transform: uppercase;
@@ -89,4 +93,103 @@
 
 .capitalize {
     text-transform: capitalize;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.double {
+    text-decoration: double;
+}
+
+.wavy {
+    text-decoration: wavy;
+}
+
+.dotted {
+    text-decoration: dotted;
+}
+
+.dashed {
+    text-decoration: dashed;
+}
+
+
+
+.emphasis-filled {
+    text-emphasis: filled;
+}
+
+.emphasis-open {
+    text-emphasis: open;
+}
+
+.emphasis-double-circle {
+    text-emphasis-style: double-circle;
+}
+
+.emphasis-triangle {
+    text-emphasis-style: triangle;
+}
+
+.emphasis-success {
+    text-emphasis-color: var(--bg-success);
+}
+
+.emphasis-primary {
+    text-emphasis-color: var(--bg-primary);
+}
+
+.emphasis-secondary {
+    text-emphasis-color: var(--bg-secondary);
+}
+
+.emphasis-tertiary {
+    text-emphasis-color: var(--bg-tertiary);
+}
+
+.emphasis-accent {
+    text-emphasis-color: var(--bg-accent);
+}
+
+.emphasis-neutral {
+    text-emphasis-color: var(--bg-neutral);
+}
+
+.emphasis-warning {
+    text-emphasis-color: var(--bg-warning);
+}
+
+
+.wrap-normal {
+    overflow-wrap: normal;
+}
+
+.wrap-anywhere {
+    overflow-wrap: anywhere;
+}
+
+.wrap-break {
+    overflow-wrap: break-word;
+}
+
+.wrap-initial {
+    overflow-wrap: initial;
+}
+
+.wrap-inherit {
+    overflow: inherit;
 }
