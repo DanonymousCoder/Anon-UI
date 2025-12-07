@@ -145,6 +145,30 @@
     text-emphasis-style: triangle;
 }
 
+.emphasid-dot {
+    text-emphasis-style: dot;
+}
+
+.emphasis-sesame {
+    text-emphasis-style: sesame;
+}
+
+.emphasis-string {
+    text-emphasis-style: string;
+}
+
+.emphasis-initial {
+    text-emphasis-style: initial;
+}
+
+.emphasis-inherit {
+    text-emphasis-style: inherit;
+}
+
+.emphasis-no {
+    text-emphasis-style: none;
+}
+
 .emphasis-success {
     text-emphasis-color: var(--bg-success);
 }
@@ -192,4 +216,53 @@
 
 .wrap-inherit {
     overflow: inherit;
+}
+
+
+.indent-initial {
+    text-indent: initial;
+}
+
+.indent-inherit {
+    text-indent: inherit;
+}
+
+.indent-percent-1 {
+    text-indent: 10%;
+}
+
+.indent-percent-2 {
+    text-indent: 20%;
+}
+
+.indent-percent-3 {
+    text-indent: 30%;
+}
+
+.indent-percent-4 {
+    text-indent: 40%;
+}
+
+.indent-percent-5 {
+    text-indent: 50%;
+}
+
+.indent-percent-6 {
+    text-indent: 60%;
+}
+
+.indent-percent-7 {
+    text-indent: 70%;
+}
+
+.indent-percent-8 {
+    text-indent: 80%;
+}
+
+.indent-percent-9 {
+    text-indent: 90%;
+}
+
+.indent-percent-10 {
+    text-indent: 100%;
 }

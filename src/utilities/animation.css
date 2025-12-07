@@ -1,0 +1,177 @@
+.transition-inherit {
+    transition-property: inherit;
+    transition-duration: inherit;
+}
+
+.transition-initial {
+    transition-property: initial;
+    transition-duration: initial;
+}
+
+.transition-all {
+    transition-property: all;
+}
+
+.transition-none {
+    transition-property: none;
+}
+
+.transition-width {
+    transition-property: width;
+}
+
+.transition-1 {
+    transition-duration: 1s;
+}
+
+.transition-2 {
+    transition-duration: 2s;
+}
+
+.transition-3 {
+    transition-duration: 3s;
+}
+
+.transition-5 {
+    transition-duration: 5s;
+}
+
+.transition-7 {
+    transition-duration: 7s;
+}
+
+.transition-10 {
+    transition-duration: 10s;
+}
+
+.delay {
+    transition-delay: 1s;
+}
+
+.delay-2 {
+    transition-delay: 2s;
+}
+
+.delay-3 {
+    transition-delay: 3s;
+}
+
+.delay-5 {
+    transition-delay: 5s;
+}
+
+.delay-7 {
+    transition-delay: 7s;
+}
+
+.delay-10 {
+    transition-delay: 10s;
+}
+
+
+
+.timing-initial {
+    transition-timing-function: initial;
+}
+
+.timing-inherit {
+    transition-timing-function: inherit;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease {
+    transition-timing-function: ease;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.start,
+.start-1 {
+    transition-timing-function: steps(1, start);
+}
+
+.end,
+.end-1 {
+    transition-timing-function: steps(1, end);
+}
+
+.start-2 {
+    transition-timing-function: steps(2, start);
+}
+
+.end-2 {
+    transition-timing-function: steps(2, end);
+}
+
+.start-3 {
+    transition-timing-function: steps(3, start);
+}
+
+.end-3 {
+    transition-timing-function: steps(3, end);
+}
+
+.start-5 {
+    transition-timing-function: steps(5, start);
+}
+
+.end-5 {
+    transition-duration: steps(5, end);
+}
+
+
+
+
+.animation-duration-initial {
+    animation-duration: initial;
+}
+
+.animation-duration-inherit {
+    animation-duration: inherit;
+}
+
+.animation-duration-1 {
+    animation-duration: 1s;
+}
+
+.animation-duration-2 {
+    animation-duration: 2s;
+}
+
+.animation-duration-3 {
+    animation-duration: 3s;
+}
+
+.animation-duration-5 {
+    animation-duration: 5s;
+}
+
+.animation-duration-7 {
+    animation-duration: 7s;
+}
+
+.animation-duration-10 {
+    animation-duration: 10s;
+}
+
+
+.animation-delay-initial {
+    animation-delay: initial;
+}
+
+.animation-delay-inherit {
+    animation-delay: inherit;
+}
