@@ -169,3 +169,25 @@
 .border-accent {
     border-color: var(--bg-accent-primary);
 }
+
+
+
+.see-through {
+    opacity: 0.5;
+}
+
+.transparent {
+    opacity: 0.2;
+}
+
+.opacity-normal {
+    opacity: 1;
+}
+
+.opacity-initial {
+    opacity: initial;
+}
+
+.opacity-inherit {
+    opacity: inherit;
+}

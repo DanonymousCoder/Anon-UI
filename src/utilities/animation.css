@@ -175,3 +175,64 @@
 .animation-delay-inherit {
     animation-delay: inherit;
 }
+
+.animation-delay-1 {
+    animation-delay: 1s;
+}
+
+.animation-delay-2 {
+    animation-delay: 2s;
+}
+
+.animation-delay-3 {
+    animation-delay: 3s;
+}
+
+.animation-delay-5 {
+    animation-delay: 5s;
+}
+
+.animation-delay-7 {
+    animation-delay: 7s;
+}
+
+.animation-delay-10 {
+    animation-delay: 10s;
+}
+
+
+.iteration-infinite {
+    animation-iteration-count: infinite;
+}
+
+.iteration-initial {
+    animation-iteration-count: initial;
+}
+
+.iteration-inherit {
+    animation-iteration-count: inherit;
+}
+
+.iteration-1 {
+    animation-iteration-count: 1;
+}
+
+.iteration-2 {
+    animation-iteration-count: 2;
+}
+
+.iteration-3 {
+    animation-iteration-count: 3;
+}
+
+.iteration-5 {
+    animation-iteration-count: 5;
+}
+
+.iteration-7 {
+    animation-iteration-count: 7;
+}
+
+.iteration-10 {
+    animation-iteration-count: 10;
+}
