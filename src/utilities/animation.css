@@ -236,3 +236,29 @@
 .iteration-10 {
     animation-iteration-count: 10;
 }
+
+
+
+.animation-alternate {
+    animation-direction: alternate;
+}
+
+.animation-normal {
+    animation-direction: normal;
+}
+
+.animation-alternate-reverse {
+    animation-direction: alternate-reverse;
+}
+
+.animation-reverse {
+    animation-direction: reverse;
+}
+
+.animation-direction-inherit {
+    animation-direction: inherit;
+}
+
+.animation-direction-initial {
+    animation-direction: initial;
+}
