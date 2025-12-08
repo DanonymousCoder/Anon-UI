@@ -1,6 +1,6 @@
 {
     "name": "anon_ui",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "My very own CSS framework",
     "main": "dist/anon_ui.css",
     "author": "D'anonymousCoder",
