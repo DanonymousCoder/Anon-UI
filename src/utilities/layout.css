@@ -1969,6 +1969,10 @@
     background-size: contain;
 }
 
+
+
+/* Background Clip Utilities start */
+
 .bg-clip-border {
     background-clip: border-box;
 }
@@ -1989,6 +1993,10 @@
     background-image: none;
 }
 
+/* Background Clip Utilities start */
+
+
+/* Background Position Utilities start */
 
 .bg-top {
     background-position: top;
@@ -2025,6 +2033,9 @@
 .bg-bottom-left {
     background-position: bottom left;
 }
+
+/* Background Clip Utilities start */
+
 
 
 .bg-repeat {

@@ -1,18 +1,18 @@
 /* MD Breakpoint (750px) */
 @media (min-width: 750px) {
- [class*="md-["][class*="flex"] {
-     display: flex;
-}
-
- [class*="md-["][class*="flex-column"] {
-     flex-direction: column;
-}
-
- [class*="md-["][class*="bg-success"] {
-     background-color: var(--bg-success);
-}
-
  [class*="md-["][class*="text-2xl"] {
      font-size: var(--text-2xl);
+}
+
+ [class*="md-["][class*="rounded-full"] {
+     border-radius: var(--rounded-full);
+}
+
+ [class*="md-["][class*="text-secondary"] {
+     color: var(--text-secondary);
+}
+
+ [class*="md-["][class*="bg-neutral-700"] {
+     background-color: var(--bg-neutral-700);
 }
 }

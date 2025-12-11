@@ -135,7 +135,10 @@ function main() {
     console.log(`Found ${responsiveClasses.length} responsive declarations`);
 }
 
-main();
+
+if (require.main === module) {
+    main();
+}
 
 
 module.exports = function parse(inputFile, outputFile) {
