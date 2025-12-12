@@ -19,7 +19,7 @@
 ### Demo Video
 
 
-https://github.com/user-attachments/assets/00463219-c1e9-44f5-9906-46fb750437f4
+https://www.youtube.com/watch?v=r7hC9GpXKv4
 
 
 
