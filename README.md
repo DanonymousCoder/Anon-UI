@@ -5,7 +5,7 @@
 [![npm version](https://img.shields.io/npm/v/anocss.svg)](https://www.npmjs.com/package/anon_ui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Why AnoCSS?
+## Why Anon UI?
 
 - **Dark-First**: Built for dark mode by default
 - **Utility-First**: Like Tailwind, but cleaner
@@ -15,6 +15,13 @@
 - **Mobile-First**: Responsive by default
 
 ## Installation
+
+### Demo Video
+
+
+https://github.com/user-attachments/assets/00463219-c1e9-44f5-9906-46fb750437f4
+
+
 
 ### Via npm
 
