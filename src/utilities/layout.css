@@ -1956,6 +1956,7 @@
 }
 
 
+/* Background Size Utilities start */
 
 .bg-auto {
     background-size: auto;
@@ -1968,6 +1969,8 @@
 .bg-contain {
     background-size: contain;
 }
+
+/* Background Size Utilities end */
 
 
 
@@ -2037,6 +2040,7 @@
 /* Background Clip Utilities start */
 
 
+/* Background Repeat Utilities start */
 
 .bg-repeat {
     background-repeat: repeat;
@@ -2062,7 +2066,11 @@
     background-repeat: round;
 }
 
+/* Background repeat Utilities end */
 
+
+
+/* Background Origin Utilities start */
 
 .bg-origin-border {
     background-origin: border-box;
@@ -2076,7 +2084,10 @@
     background-origin: content-box;
 }
 
+/* Background Origin Utilities end */
 
+
+/* Background Attachment Utilities start */
 
 .bg-fixed {
     background-attachment: fixed;
@@ -2089,3 +2100,5 @@
 .bg-scroll {
     background-attachment: scroll;
 }
+
+/* Background Attachment Utilities end */

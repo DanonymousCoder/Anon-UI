@@ -45,6 +45,7 @@ if (command === 'parse') {
   }
   
   require('./parse')(inputFile, outputFile);
+  process.exit(0);
 }
 
 if (command === 'watch') {
@@ -57,6 +58,7 @@ if (command === 'watch') {
   }
   
   require('./watch')(inputFile, outputFile);
+  return; // Don't exit or continue - watch needs to keep running
 }
 
 if (command === 'init') {
@@ -73,4 +75,19 @@ if (command === 'init') {
   
   fs.writeFileSync('anonui.config.js', configContent);
   console.log('Created anonui.config.js');
+  process.exit(0);
+}
+
+// Fallback: if first arg looks like a file, treat it as parse command
+if (command && !command.startsWith('-')) {
+  const inputFile = command;
+  const outputFile = args[1] || 'responsive.css';
+  
+  if (fs.existsSync(inputFile)) {
+    require('./parse')(inputFile, outputFile);
+  } else {
+    console.error(`Error: Unknown command or file not found: ${command}`);
+    console.log('Run "anonui --help" for usage information');
+    process.exit(1);
+  }
 }
