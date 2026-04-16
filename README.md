@@ -18,10 +18,7 @@
 
 ### Demo Video
 
-
 https://www.youtube.com/watch?v=r7hC9GpXKv4
-
-
 
 ### Via npm
 
@@ -356,6 +353,5 @@ module.exports = {
     xl: "1400px",
   },
 };
+``;
 ```
-
-### Docs Link: https://anon-ui.netlify.app/
