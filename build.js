@@ -9,9 +9,10 @@ const colors = fs.readFileSync("src/utilities/colors.css", "utf8");
 const layout = fs.readFileSync("src/utilities/layout.css", "utf8");
 const spacing = fs.readFileSync("src/utilities/spacing.css", "utf8");
 const typography  = fs.readFileSync("src/utilities/typography.css", "utf8");
+const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, "package.json"), "utf8"));
 
 
-const framework = `/* Anon UI v0.1.0 - Dark-First Utility and Component based framework */\n\n${variables}\n\n${preset}\n\n${spacing}\n\n${colors}\n\n${typography}\n\n${layout}`;
+const framework = `/* Anon UI v${pkg.version} - Dark-First Utility and Component based framework */\n\n${variables}\n\n${preset}\n\n${spacing}\n\n${colors}\n\n${typography}\n\n${layout}`;
 
 if (!fs.existsSync("dist")) {
     fs.mkdirSync("dist");

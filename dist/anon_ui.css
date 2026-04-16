@@ -1,4 +1,4 @@
-/* Anon UI v0.1.0 - Dark-First Utility and Component based framework */
+/* Anon UI v0.1.2 - Dark-First Utility and Component based framework */
 
 
 /* Core design system for Anon UI */
@@ -1591,6 +1591,22 @@ h1, h2, h3, h4, h5, h6 {
     row-gap: var(--space-20);
 }
 
+.bg-inherit {
+    background-color: inherit;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
 .bg-primary {
     background-color: var(--bg-primary);
 }
@@ -1755,12 +1771,24 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+.border-inherit {
+    border-color: inherit;
+}
+
 .border-primary {
+    border-color: var(--bg-primary);
+}
+
+.border-secondary {
+    border-color: var(--bg-secondary);
+}
+
+.border-tertiary {
     border-color: var(--bg-tertiary);
 }
 
 .border-accent {
-    border-color: var(--bg-accent-primary);
+    border-color: var(--bg-accent);
 }
 
 
@@ -4012,6 +4040,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* Background Size Utilities start */
 
 .bg-auto {
     background-size: auto;
@@ -4024,6 +4053,12 @@ h1, h2, h3, h4, h5, h6 {
 .bg-contain {
     background-size: contain;
 }
+
+/* Background Size Utilities end */
+
+
+
+/* Background Clip Utilities start */
 
 .bg-clip-border {
     background-clip: border-box;
@@ -4045,6 +4080,10 @@ h1, h2, h3, h4, h5, h6 {
     background-image: none;
 }
 
+/* Background Clip Utilities start */
+
+
+/* Background Position Utilities start */
 
 .bg-top {
     background-position: top;
@@ -4082,6 +4121,10 @@ h1, h2, h3, h4, h5, h6 {
     background-position: bottom left;
 }
 
+/* Background Clip Utilities start */
+
+
+/* Background Repeat Utilities start */
 
 .bg-repeat {
     background-repeat: repeat;
@@ -4107,7 +4150,11 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: round;
 }
 
+/* Background repeat Utilities end */
 
+
+
+/* Background Origin Utilities start */
 
 .bg-origin-border {
     background-origin: border-box;
@@ -4121,7 +4168,10 @@ h1, h2, h3, h4, h5, h6 {
     background-origin: content-box;
 }
 
+/* Background Origin Utilities end */
 
+
+/* Background Attachment Utilities start */
 
 .bg-fixed {
     background-attachment: fixed;
@@ -4134,3 +4184,5 @@ h1, h2, h3, h4, h5, h6 {
 .bg-scroll {
     background-attachment: scroll;
 }
+
+/* Background Attachment Utilities end */
